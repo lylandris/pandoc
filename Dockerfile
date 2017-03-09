@@ -13,6 +13,9 @@ RUN apt-get update -y \
         lmodern \
         latex-cjk-all \
         texlive-lang-chinese \
+        xfonts-wqy \
+        ttf-wqy-microhei \
+        ttf-wqy-zenhei \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
 ENV PANDOC_VERSION "1.19.2.1"
